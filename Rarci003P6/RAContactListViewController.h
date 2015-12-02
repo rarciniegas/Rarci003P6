@@ -1,3 +1,11 @@
+//  PROGRAMMER: Roberto Arciniegas
+//  PANTHERID: 1385020
+//  CLASS:          COP 465501 TR 5:00
+//  INSTRUCTOR:     Steve Luis  ECS 282
+//  ASSIGNMENT:     #6
+//  DUE:            Tuesday 11/24/11
+//
+
 //
 //  RAContactListViewController.h
 //  Rarci003P6

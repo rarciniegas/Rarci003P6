@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RAEditContactViewController">
             <connections>
+                <outlet property="addressLabel" destination="sHY-zK-wD4" id="SPu-77-mIX"/>
+                <outlet property="contactPicture" destination="2XG-np-xto" id="tq9-l8-68s"/>
+                <outlet property="dobDatePicker" destination="gbB-RY-hZn" id="fHc-tf-ydP"/>
+                <outlet property="emailLabel" destination="mI0-hI-RYk" id="UBP-Si-64j"/>
+                <outlet property="firstNameLabel" destination="S3J-B6-FrE" id="WqC-4A-7QG"/>
+                <outlet property="lastNameLabel" destination="F4K-GY-Eur" id="kVW-vr-Qc6"/>
+                <outlet property="phoneLabel" destination="tfV-d0-mjR" id="5IY-Vt-Aea"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -42,7 +49,7 @@
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Birthdate" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Gu-ox-l0e">
                     <rect key="frame" x="125" y="331" width="71" height="21"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="gbB-RY-hZn">
@@ -59,6 +66,9 @@
                     <state key="normal" title="add photo">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
+                    <connections>
+                        <action selector="addPicture:" destination="-1" eventType="touchUpInside" id="DSX-rb-n93"/>
+                    </connections>
                 </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
