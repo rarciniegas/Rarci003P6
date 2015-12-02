@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Peter Reidi</key>
+	<array>
+		<string>Peter</string>
+		<string>Reidi</string>
+	</array>
+	<key>Vladan Lalovic</key>
+	<array>
+		<string>Vladan</string>
+		<string>Lalovic</string>
+	</array>
+	<key>Idelfonso Torres</key>
+	<array>
+		<string>Idelfonso</string>
+		<string>Torres</string>
+	</array>
+	<key>John Doe</key>
+	<array>
+		<string>John</string>
+		<string>Doe</string>
+	</array>
+	<key>Mark Weiss</key>
+	<array>
+		<string>Mark</string>
+		<string>Weiss</string>
+	</array>
+	<key>Jill Weiss</key>
+	<array>
+		<string>Jill</string>
+		<string>Weiss</string>
+	</array>
+	<key>Steven Luis</key>
+	<array>
+		<string>Steven</string>
+		<string>Luis</string>
+	</array>
+	<key>Jim Smith</key>
+	<array>
+		<string>Jim</string>
+		<string>Smith</string>
+	</array>
+	<key>Robert Conway</key>
+	<array>
+		<string>Robert</string>
+		<string>Conway</string>
+	</array>
+	<key>Jean Doe</key>
+	<array>
+		<string>Jean</string>
+		<string>Doe</string>
+	</array>
+</dict>
+</plist>

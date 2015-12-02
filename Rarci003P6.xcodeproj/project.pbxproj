@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E63E29F1C0F318E00D7631B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E63E29E1C0F318E00D7631B /* main.m */; };
+		8E63E2AA1C0F318E00D7631B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E63E2A91C0F318E00D7631B /* Images.xcassets */; };
+		8E63E2B91C0F318E00D7631B /* Rarci003P6Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E63E2B81C0F318E00D7631B /* Rarci003P6Tests.m */; };
+		8E63E2CB1C0F323300D7631B /* RAAddressBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E63E2C61C0F323300D7631B /* RAAddressBook.m */; };
+		8E63E2CC1C0F323300D7631B /* RAAddressCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E63E2C81C0F323300D7631B /* RAAddressCard.m */; };
+		8E63E2CD1C0F323300D7631B /* RAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E63E2CA1C0F323300D7631B /* RAAppDelegate.m */; };
+		8E63E2D11C0F328700D7631B /* RAContactListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E63E2CF1C0F328700D7631B /* RAContactListViewController.m */; };
+		8E63E2D21C0F328700D7631B /* RAContactListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E63E2D01C0F328700D7631B /* RAContactListViewController.xib */; };
+		8E63E2D61C0F332A00D7631B /* RAEditContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E63E2D41C0F332A00D7631B /* RAEditContactViewController.m */; };
+		8E63E2D71C0F332A00D7631B /* RAEditContactViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E63E2D51C0F332A00D7631B /* RAEditContactViewController.xib */; };
+		8E63E2DB1C0F33B000D7631B /* RADetailContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E63E2D91C0F33B000D7631B /* RADetailContactViewController.m */; };
+		8E63E2DC1C0F33B000D7631B /* RADetailContactViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E63E2DA1C0F33B000D7631B /* RADetailContactViewController.xib */; };
+		8E63E2E01C0F341000D7631B /* RANewContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E63E2DE1C0F341000D7631B /* RANewContactViewController.m */; };
+		8E63E2E11C0F341000D7631B /* RANewContactViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E63E2DF1C0F341000D7631B /* RANewContactViewController.xib */; };
+		8E63E2E41C0F34D700D7631B /* photo-frame.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E63E2E21C0F34D700D7631B /* photo-frame.png */; };
+		8E63E2E51C0F34D700D7631B /* photo-frame@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E63E2E31C0F34D700D7631B /* photo-frame@2x.png */; };
+		8E63E2E71C0F34E800D7631B /* Contact List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E63E2E61C0F34E800D7631B /* Contact List.plist */; };
+		8E63E2E91C0F34FA00D7631B /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E63E2E81C0F34FA00D7631B /* user.png */; };
+		8E63E2EB1C0F363700D7631B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E63E2EA1C0F363700D7631B /* Foundation.framework */; };
+		8E63E2ED1C0F364400D7631B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E63E2EC1C0F364400D7631B /* CoreGraphics.framework */; };
+		8E63E2EF1C0F365200D7631B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E63E2EE1C0F365200D7631B /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E63E2B31C0F318E00D7631B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E63E2911C0F318E00D7631B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E63E2981C0F318E00D7631B;
+			remoteInfo = Rarci003P6;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8E63E2991C0F318E00D7631B /* Rarci003P6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rarci003P6.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E63E29D1C0F318E00D7631B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E63E29E1C0F318E00D7631B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8E63E2A91C0F318E00D7631B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8E63E2B21C0F318E00D7631B /* Rarci003P6Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Rarci003P6Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E63E2B71C0F318E00D7631B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E63E2B81C0F318E00D7631B /* Rarci003P6Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Rarci003P6Tests.m; sourceTree = "<group>"; };
+		8E63E2C51C0F323300D7631B /* RAAddressBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAAddressBook.h; sourceTree = "<group>"; };
+		8E63E2C61C0F323300D7631B /* RAAddressBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RAAddressBook.m; sourceTree = "<group>"; };
+		8E63E2C71C0F323300D7631B /* RAAddressCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAAddressCard.h; sourceTree = "<group>"; };
+		8E63E2C81C0F323300D7631B /* RAAddressCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RAAddressCard.m; sourceTree = "<group>"; };
+		8E63E2C91C0F323300D7631B /* RAAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAAppDelegate.h; sourceTree = "<group>"; };
+		8E63E2CA1C0F323300D7631B /* RAAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RAAppDelegate.m; sourceTree = "<group>"; };
+		8E63E2CE1C0F328700D7631B /* RAContactListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAContactListViewController.h; sourceTree = "<group>"; };
+		8E63E2CF1C0F328700D7631B /* RAContactListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RAContactListViewController.m; sourceTree = "<group>"; };
+		8E63E2D01C0F328700D7631B /* RAContactListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RAContactListViewController.xib; sourceTree = "<group>"; };
+		8E63E2D31C0F332A00D7631B /* RAEditContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAEditContactViewController.h; sourceTree = "<group>"; };
+		8E63E2D41C0F332A00D7631B /* RAEditContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RAEditContactViewController.m; sourceTree = "<group>"; };
+		8E63E2D51C0F332A00D7631B /* RAEditContactViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RAEditContactViewController.xib; sourceTree = "<group>"; };
+		8E63E2D81C0F33B000D7631B /* RADetailContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RADetailContactViewController.h; sourceTree = "<group>"; };
+		8E63E2D91C0F33B000D7631B /* RADetailContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RADetailContactViewController.m; sourceTree = "<group>"; };
+		8E63E2DA1C0F33B000D7631B /* RADetailContactViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RADetailContactViewController.xib; sourceTree = "<group>"; };
+		8E63E2DD1C0F341000D7631B /* RANewContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RANewContactViewController.h; sourceTree = "<group>"; };
+		8E63E2DE1C0F341000D7631B /* RANewContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RANewContactViewController.m; sourceTree = "<group>"; };
+		8E63E2DF1C0F341000D7631B /* RANewContactViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RANewContactViewController.xib; sourceTree = "<group>"; };
+		8E63E2E21C0F34D700D7631B /* photo-frame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo-frame.png"; sourceTree = "<group>"; };
+		8E63E2E31C0F34D700D7631B /* photo-frame@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo-frame@2x.png"; sourceTree = "<group>"; };
+		8E63E2E61C0F34E800D7631B /* Contact List.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Contact List.plist"; sourceTree = "<group>"; };
+		8E63E2E81C0F34FA00D7631B /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
+		8E63E2EA1C0F363700D7631B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8E63E2EC1C0F364400D7631B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8E63E2EE1C0F365200D7631B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E63E2961C0F318E00D7631B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E63E2EF1C0F365200D7631B /* UIKit.framework in Frameworks */,
+				8E63E2ED1C0F364400D7631B /* CoreGraphics.framework in Frameworks */,
+				8E63E2EB1C0F363700D7631B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E63E2AF1C0F318E00D7631B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E63E2901C0F318E00D7631B = {
+			isa = PBXGroup;
+			children = (
+				8E63E2EE1C0F365200D7631B /* UIKit.framework */,
+				8E63E2EC1C0F364400D7631B /* CoreGraphics.framework */,
+				8E63E2EA1C0F363700D7631B /* Foundation.framework */,
+				8E63E29B1C0F318E00D7631B /* Rarci003P6 */,
+				8E63E2B51C0F318E00D7631B /* Rarci003P6Tests */,
+				8E63E29A1C0F318E00D7631B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E63E29A1C0F318E00D7631B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E63E2991C0F318E00D7631B /* Rarci003P6.app */,
+				8E63E2B21C0F318E00D7631B /* Rarci003P6Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E63E29B1C0F318E00D7631B /* Rarci003P6 */ = {
+			isa = PBXGroup;
+			children = (
+				8E63E2C51C0F323300D7631B /* RAAddressBook.h */,
+				8E63E2C61C0F323300D7631B /* RAAddressBook.m */,
+				8E63E2C71C0F323300D7631B /* RAAddressCard.h */,
+				8E63E2C81C0F323300D7631B /* RAAddressCard.m */,
+				8E63E2C91C0F323300D7631B /* RAAppDelegate.h */,
+				8E63E2CA1C0F323300D7631B /* RAAppDelegate.m */,
+				8E63E2A91C0F318E00D7631B /* Images.xcassets */,
+				8E63E2E21C0F34D700D7631B /* photo-frame.png */,
+				8E63E2E31C0F34D700D7631B /* photo-frame@2x.png */,
+				8E63E2E61C0F34E800D7631B /* Contact List.plist */,
+				8E63E2E81C0F34FA00D7631B /* user.png */,
+				8E63E29C1C0F318E00D7631B /* Supporting Files */,
+				8E63E2CE1C0F328700D7631B /* RAContactListViewController.h */,
+				8E63E2CF1C0F328700D7631B /* RAContactListViewController.m */,
+				8E63E2D01C0F328700D7631B /* RAContactListViewController.xib */,
+				8E63E2D31C0F332A00D7631B /* RAEditContactViewController.h */,
+				8E63E2D41C0F332A00D7631B /* RAEditContactViewController.m */,
+				8E63E2D51C0F332A00D7631B /* RAEditContactViewController.xib */,
+				8E63E2D81C0F33B000D7631B /* RADetailContactViewController.h */,
+				8E63E2D91C0F33B000D7631B /* RADetailContactViewController.m */,
+				8E63E2DA1C0F33B000D7631B /* RADetailContactViewController.xib */,
+				8E63E2DD1C0F341000D7631B /* RANewContactViewController.h */,
+				8E63E2DE1C0F341000D7631B /* RANewContactViewController.m */,
+				8E63E2DF1C0F341000D7631B /* RANewContactViewController.xib */,
+			);
+			path = Rarci003P6;
+			sourceTree = "<group>";
+		};
+		8E63E29C1C0F318E00D7631B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E63E29D1C0F318E00D7631B /* Info.plist */,
+				8E63E29E1C0F318E00D7631B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8E63E2B51C0F318E00D7631B /* Rarci003P6Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8E63E2B81C0F318E00D7631B /* Rarci003P6Tests.m */,
+				8E63E2B61C0F318E00D7631B /* Supporting Files */,
+			);
+			path = Rarci003P6Tests;
+			sourceTree = "<group>";
+		};
+		8E63E2B61C0F318E00D7631B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E63E2B71C0F318E00D7631B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E63E2981C0F318E00D7631B /* Rarci003P6 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E63E2BC1C0F318E00D7631B /* Build configuration list for PBXNativeTarget "Rarci003P6" */;
+			buildPhases = (
+				8E63E2951C0F318E00D7631B /* Sources */,
+				8E63E2961C0F318E00D7631B /* Frameworks */,
+				8E63E2971C0F318E00D7631B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rarci003P6;
+			productName = Rarci003P6;
+			productReference = 8E63E2991C0F318E00D7631B /* Rarci003P6.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E63E2B11C0F318E00D7631B /* Rarci003P6Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E63E2BF1C0F318E00D7631B /* Build configuration list for PBXNativeTarget "Rarci003P6Tests" */;
+			buildPhases = (
+				8E63E2AE1C0F318E00D7631B /* Sources */,
+				8E63E2AF1C0F318E00D7631B /* Frameworks */,
+				8E63E2B01C0F318E00D7631B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E63E2B41C0F318E00D7631B /* PBXTargetDependency */,
+			);
+			name = Rarci003P6Tests;
+			productName = Rarci003P6Tests;
+			productReference = 8E63E2B21C0F318E00D7631B /* Rarci003P6Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E63E2911C0F318E00D7631B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "roberto arciniegas";
+				TargetAttributes = {
+					8E63E2981C0F318E00D7631B = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					8E63E2B11C0F318E00D7631B = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 8E63E2981C0F318E00D7631B;
+					};
+				};
+			};
+			buildConfigurationList = 8E63E2941C0F318E00D7631B /* Build configuration list for PBXProject "Rarci003P6" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E63E2901C0F318E00D7631B;
+			productRefGroup = 8E63E29A1C0F318E00D7631B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E63E2981C0F318E00D7631B /* Rarci003P6 */,
+				8E63E2B11C0F318E00D7631B /* Rarci003P6Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E63E2971C0F318E00D7631B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E63E2E41C0F34D700D7631B /* photo-frame.png in Resources */,
+				8E63E2D21C0F328700D7631B /* RAContactListViewController.xib in Resources */,
+				8E63E2E91C0F34FA00D7631B /* user.png in Resources */,
+				8E63E2DC1C0F33B000D7631B /* RADetailContactViewController.xib in Resources */,
+				8E63E2E51C0F34D700D7631B /* photo-frame@2x.png in Resources */,
+				8E63E2E71C0F34E800D7631B /* Contact List.plist in Resources */,
+				8E63E2AA1C0F318E00D7631B /* Images.xcassets in Resources */,
+				8E63E2D71C0F332A00D7631B /* RAEditContactViewController.xib in Resources */,
+				8E63E2E11C0F341000D7631B /* RANewContactViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E63E2B01C0F318E00D7631B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E63E2951C0F318E00D7631B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E63E2DB1C0F33B000D7631B /* RADetailContactViewController.m in Sources */,
+				8E63E2CB1C0F323300D7631B /* RAAddressBook.m in Sources */,
+				8E63E2CD1C0F323300D7631B /* RAAppDelegate.m in Sources */,
+				8E63E29F1C0F318E00D7631B /* main.m in Sources */,
+				8E63E2CC1C0F323300D7631B /* RAAddressCard.m in Sources */,
+				8E63E2D61C0F332A00D7631B /* RAEditContactViewController.m in Sources */,
+				8E63E2D11C0F328700D7631B /* RAContactListViewController.m in Sources */,
+				8E63E2E01C0F341000D7631B /* RANewContactViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E63E2AE1C0F318E00D7631B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E63E2B91C0F318E00D7631B /* Rarci003P6Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E63E2B41C0F318E00D7631B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E63E2981C0F318E00D7631B /* Rarci003P6 */;
+			targetProxy = 8E63E2B31C0F318E00D7631B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8E63E2BA1C0F318E00D7631B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8E63E2BB1C0F318E00D7631B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E63E2BD1C0F318E00D7631B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Rarci003P6/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8E63E2BE1C0F318E00D7631B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Rarci003P6/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8E63E2C01C0F318E00D7631B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Rarci003P6Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rarci003P6.app/Rarci003P6";
+			};
+			name = Debug;
+		};
+		8E63E2C11C0F318E00D7631B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Rarci003P6Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rarci003P6.app/Rarci003P6";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E63E2941C0F318E00D7631B /* Build configuration list for PBXProject "Rarci003P6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E63E2BA1C0F318E00D7631B /* Debug */,
+				8E63E2BB1C0F318E00D7631B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E63E2BC1C0F318E00D7631B /* Build configuration list for PBXNativeTarget "Rarci003P6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E63E2BD1C0F318E00D7631B /* Debug */,
+				8E63E2BE1C0F318E00D7631B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8E63E2BF1C0F318E00D7631B /* Build configuration list for PBXNativeTarget "Rarci003P6Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E63E2C01C0F318E00D7631B /* Debug */,
+				8E63E2C11C0F318E00D7631B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E63E2911C0F318E00D7631B /* Project object */;
+}
